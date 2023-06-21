@@ -13,7 +13,7 @@ extension FlutterMapMarkerPopupAnchorAlignExtension on AnchorAlign {
       case AnchorAlign.bottom:
         return Alignment.topCenter;
       case AnchorAlign.center:
-      case AnchorAlign.none:
+      default:
         return Alignment.center;
     }
   }

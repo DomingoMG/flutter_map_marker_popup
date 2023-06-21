@@ -202,7 +202,8 @@ abstract class PopupContainerTransform {
   ) {
     return mapState
             .project(popupSpec.markerPoint)
-            .multiplyBy(mapState.getZoomScale(mapState.zoom, mapState.zoom)) -
-        mapState.pixelOrigin;
+            .multiplyBy(mapState.getZoomScale(mapState.zoom, mapState.zoom)) - mapState.pixelOrigin;
   }
+
+  
 }
